@@ -8,3 +8,4 @@ def teste_idade():
     print(f'teste = {funcionario_teste.idade}')
 
 teste_idade()
+print(teste_idade())
