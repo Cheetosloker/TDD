@@ -1,11 +1,6 @@
-from Bytebank import Funcionario
+from codigo.bytebank import Funcionario
 
-#maycon = Funcionario('Maycon Barboza', '21/06/1994', 2000)
-#print(maycon.idade())
 
-def teste_idade():
-    funcionario_teste = Funcionario('teste', '21/06/1994', 1500)
-    print(f'teste = {funcionario_teste.idade}')
+ana = Funcionario('Ana', '12/03/1997', 100000000)
 
-teste_idade()
-print(teste_idade())
+print(ana.calcular_bonus())
