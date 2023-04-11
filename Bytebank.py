@@ -1,10 +1,10 @@
 from datetime import date
 
 class Funcionario:
-    def __init__(self, nome, data_nascimento, salario):
+    def __init__(self, nome, data_nascimento, salarios):
         self._nome = nome
         self._data_nascimento = data_nascimento
-        self._salario = salario
+        self._salario = salarios
 
     @property
     def nome(self):
